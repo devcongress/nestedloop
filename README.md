@@ -1,4 +1,4 @@
-#Nested Loops (Chrome extension)
+#Nested Loop (Chrome extension)
 Add this to your Chrome. No seriously, add this to your Google Chrome.
 
 ##Overview
