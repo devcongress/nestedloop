@@ -8,11 +8,8 @@
              "48": "icons/icon48.png",
             "128": "icons/icon128.png" },
   // "default_locale": "en",
-
-  "background": {
-    "page": "background.html"
-  },
-
+  //added content_security_policy as a way to allow cross domain downloads of js scripts
+  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
   "browser_action": {
     "default_icon":  "icons/icon16.png", 
     // "default_title": "Nested Loops",    
@@ -21,14 +18,8 @@
   // PERMISSIONS
   "permissions": [
     "http://*/",
-    "bookmarks",
-    "chrome://favicon/",
-    "contextMenus",
     "idle",
-    "management",
-    "notifications",
     "tabs",
-    "unlimitedStorage"
   ],
   // "options_page": "options.html",
 
@@ -36,7 +27,7 @@
     {
       "matches": ["http://news.devcongress.com/"],
       "css": ["src/style.css"],
-      "js": ["lib/jquery.min.js", "src/popup.js"]
+      "js": ["src/popup.js"]
     }
   ]
 }
