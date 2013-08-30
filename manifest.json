@@ -19,7 +19,7 @@
   "permissions": [
     "http://*/",
     "idle",
-    "tabs",
+    "tabs"
   ],
   // "options_page": "options.html",
 
