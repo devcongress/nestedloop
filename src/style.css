@@ -13,6 +13,7 @@ a:link, a:active, a:visited {
 }
 a:hover {
     color:#e23351;
+    text-decoration:underline;
 }
 .error {
   white-space: nowrap;
