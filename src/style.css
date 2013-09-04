@@ -2,16 +2,18 @@ body {
     background-color: #fff;
     font-size: 10pt;
     text-align: center;
+    width:240px;
     line-height: 100%;
     background:#fff url(../icons/bg.png) center;
 }
 a:link, a:active, a:visited {
     color:#94aaa1;
     text-decoration: none;
-    -webkit-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 a:hover {
     color:#e23351;
+    text-decoration:underline;
 }
 .error {
   white-space: nowrap;
@@ -27,6 +29,7 @@ a:hover {
 #inner {
     width:100%;
     overflow:auto;
+    text-align: left;
     box-shadow: 0px 1px 1px #ddd;
 }
 ::-webkit-scrollbar-track {background-color:#fff;}
